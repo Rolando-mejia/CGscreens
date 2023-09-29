@@ -1,0 +1,38 @@
+.container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    grid-template-columns: 10fr 11fr;
+    padding-left: 20rem;
+}
+.logo{
+    width: 70rem;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.logo h2{
+    color: aliceblue;
+}
+
+.col{
+    display: flex;
+    gap: 2rem;
+}
+
+.fight_info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1rem;
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
